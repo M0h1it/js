@@ -1,10 +1,10 @@
 var x = 1;
-a();
-b();
+a(); //global space 
+b(); //global space 
 console.log(x);
 
 function a(){
-    var x= 10;
+    var x= 10; // not global space 
     console.log(x);
 }
 
