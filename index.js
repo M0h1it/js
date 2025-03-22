@@ -12,3 +12,7 @@ function b(){
     var x =100;
     conssole.log(x);
 }
+
+{
+    //block scope also known as compound statement
+}
