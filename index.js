@@ -16,3 +16,12 @@ function b(){
 {
     //block scope also known as compound statement
 }
+
+function x(){
+    var a = 7 ;
+    function y(){
+        console.log(a);
+    }   
+    y();
+}
+x();
