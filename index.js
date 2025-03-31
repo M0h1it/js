@@ -20,7 +20,8 @@ function b(){
 function x(){
     var a = 7 ;
     function y(){
-        console.log(a);
+        console.log(a);//closure
+        //closure is a function that has access to the parent scope, even after the parent function has closed.
     }   
     y();
 }
